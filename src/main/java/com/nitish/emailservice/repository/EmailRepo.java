@@ -52,16 +52,6 @@ public class EmailRepo {
 
         return false;
 
-//        msg.setSentDate(new Date());
-//
-//        MimeBodyPart messageBodyPart = new MimeBodyPart();
-//        messageBodyPart.setContent("Test Email hai ye", "text/html");
-//
-//        Multipart multipart = new MimeMultipart();
-//        multipart.addBodyPart(messageBodyPart);
-//
-//        msg.setContent(multipart);
-
     }
     public static boolean sendMailWithAttachment() {
         Properties props = System.getProperties();
@@ -124,15 +114,6 @@ public class EmailRepo {
 
         return false;
 
-//        msg.setSentDate(new Date());
-//
-//        MimeBodyPart messageBodyPart = new MimeBodyPart();
-//        messageBodyPart.setContent("Test Email hai ye", "text/html");
-//
-//        Multipart multipart = new MimeMultipart();
-//        multipart.addBodyPart(messageBodyPart);
-//
-//        msg.setContent(multipart);
 
     }
 
